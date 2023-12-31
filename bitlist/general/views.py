@@ -6,7 +6,7 @@ import requests
 def update_list():
     all_coins = Cryptocurrency.objects.all()
     for coin in all_coins:
-        url = f'https://api.bybit.com/v2/public/tickers?symbol={coin.symbols}USD'
+        url = f'https://api.bybit.com/v2/public/tickers?symbol={coin.symbols}USDT'
         response = requests.get(url)
         data = response.json()
         if data['result']:
