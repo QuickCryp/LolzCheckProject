@@ -1,0 +1,135 @@
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.right {
+    width: 640px;
+    height: 283px;
+    flex-shrink: 0;
+}
+
+.section1 {
+    margin-top: 60px;
+}
+
+.text {
+    color: white;
+    margin-bottom: 48px;
+}
+
+.elipse2 {
+    width: 600px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 600px;
+    background: rgba(30, 160, 255, 0.32);
+    filter: blur(200px);
+}
+
+.elipse {
+    border-radius: 600px;
+    background: rgba(30, 120, 255, 0.24);
+    filter: blur(200px);
+    width: 600px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.email__input {
+    display: flex;
+    width: 370px;
+    padding: 1px 20px 1px 16px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #252B3D 100%);
+}
+
+.email__input > input {
+    background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #252B3D 100%);
+    border: none;
+    color: white;
+}
+
+
+.email__button {
+    margin-left: 5px;
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: radial-gradient(100.04% 100% at 50% 0%, #66CBF9 0%, #0FB5FF 100%);
+}
+
+.banner {
+    border-radius: 6px;
+    border-top: 1px solid #1E2844;
+    background: radial-gradient(107.69% 100% at 50% 0%, #131A2E 0%, #111624 100%);
+}
+
+.diagram {
+    margin-top: -180px;
+    width: 640px;
+    height: 283px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(180deg, #1B2531 0%, #1C242C 100%);
+}
+
+.cryptocurrencys {
+    width: 1600px;
+    height: 523px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #222D3E;
+    background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #131820 0.01%, #0F151E 100%);
+    color: #6D799C;
+}
+
+.cryptocurrencys > .asset {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.trade {
+    display: flex;
+    padding: 5px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 6px;
+    border: 1px solid #2FBDFC;
+    color: #2FBDFC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #131820 0.01%, #0F151E 100%);
+}
+
+.image {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+}
+
+.all-assets {
+    display: flex;
+    width: 100%;
+    padding: 10px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background: radial-gradient(100.04% 100% at 50% 0%, #26314E 0%, #1E253C 100%);
+    color: white;
+}
